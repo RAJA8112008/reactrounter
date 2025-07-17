@@ -19,6 +19,9 @@ const Random = () => {
   useEffect(() => {
     fetchData();
   }, []);
+  function clickHandler(){
+    fetchData();
+  }
 
   return (
     <div className='w-1/2 bg-green-500 rounded-lg border border-black flex flex-col items-center gap-y-5 mt-[15px]'>
